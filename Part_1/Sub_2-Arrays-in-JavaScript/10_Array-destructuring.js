@@ -12,6 +12,6 @@ console.log("value of myvar2", myvar2);
 
 let [myvarX, myvarY, ...myNewArray] = myArray ;
 
-console.log("value of myvar1", myvarX);
-console.log("value of myvar2", myvarY);
-console.log("value of myvar2", myNewArray );
+console.log("value of myvar1", myvarX); // "value1"
+console.log("value of myvar2", myvarY); // "value2"
+console.log("value of myvar2", myNewArray ); //"value3","value4"
