@@ -15,5 +15,5 @@ console.log(b.length);//9
 
 //a.slice(starting index , end index - 1 )
 
-let newString = b.slice(0,2); // hars
+let newString = b.slice(0,2); // pa
 console.log(newString);
