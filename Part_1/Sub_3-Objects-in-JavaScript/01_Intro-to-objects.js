@@ -8,9 +8,11 @@
 let person = {name:"parth",age:22};
 console.log(person); // name:"parth",age:22 --- this is keyValue pair
 
+//1)) DOT notation
 console.log(person.name); //parth
 console.log(person.age); //22
 
+//2)) BRACKATE notation
 console.log(person["name"]); //parth
 console.log(person["age"]); //22
 
