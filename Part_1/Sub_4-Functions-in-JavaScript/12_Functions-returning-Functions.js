@@ -10,4 +10,4 @@ function myFunc(){
 }
 
 const ans = myFunc();
-console.log(ans());
+console.log(ans());  //hello world
