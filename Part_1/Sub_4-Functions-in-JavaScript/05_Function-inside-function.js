@@ -14,15 +14,15 @@ const app = () => {  //main function
 
     console.log("inside app");                       //<-- this is for main function    
 
-    myFunc();   //  <-- calling the SUB function under the main function 
+    myFunc();   //  <-- calling the SUB function under the main function  // step2))
 
-    console.log(addTwo(2,3)); //  <-- calling the SUB function under the main function 
+    console.log(addTwo(2,3)); //  <-- calling the SUB function under the main function  // step2))
 
     console.log(multi(3,3));
 
 }
 
-app();  //  <---- calling the MAIN (first-primary) function
+app();  //  <---- calling the MAIN (first-primary) function // step1)) 
 
 //-------------------------
 //OUTPUT - inside app
