@@ -35,6 +35,7 @@ const parth =  (x,y) => {
 const totalCartValue = userCart.reduce((accumulatorPrice,currentPrice) => {
     return accumulatorPrice + currentPrice.price;
 } , 0 );
+//here ,0 is initiate accumulatorvalue
 
 
 console.log(totalCartValue);
