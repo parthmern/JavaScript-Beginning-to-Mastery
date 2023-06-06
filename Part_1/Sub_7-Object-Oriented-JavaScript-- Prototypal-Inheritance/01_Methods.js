@@ -1,4 +1,4 @@
-// methods
+// methods --- function inside the Object is known as METHOD 
 // function inside object
 
 const person = {
