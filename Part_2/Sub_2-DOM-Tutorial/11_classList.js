@@ -1,4 +1,7 @@
-// classList
+// classList ====
+// .add()
+// .remove()
+// .toogle()
 
 const sectionTodo = document.querySelector(".section-todo");
 console.log(sectionTodo.classList);  //DOMTokenList(2) ['section-todo', 'container']  ---> total classname that given to the element
