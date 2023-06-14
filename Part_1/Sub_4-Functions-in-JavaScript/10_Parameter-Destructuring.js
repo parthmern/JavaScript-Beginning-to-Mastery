@@ -11,7 +11,7 @@ function printDetails(obj){
     console.log(obj.gender);
 }
 
-printDetails(person); // harshit - name
+printDetails(person); // harshit - male
 
 //---------------------
 
