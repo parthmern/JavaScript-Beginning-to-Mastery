@@ -1,0 +1,37 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#form-container{
+    background-color: aqua;
+    padding: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 9%;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+input{
+    width: 100%;
+    margin: 10px 0px;
+    padding: 10px;
+}
+
+input[type="submit"]{
+    width: 222px;
+    background-color: blueviolet;
+    border: 0px;
+    color: white;
+}
+
+.error{
+    color: red;
+    font-size: 15px;
+    text-align: left;
+}
