@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
+
+:root {
+  --primary: #e37676;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Poppins", sans-serif;
+}
+
+.product-container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    margin: auto 30px;
+}
+
+.product-card{
+    border-radius: 5px;
+    box-shadow: 0px 7px 32px rgba(0, 0, 0, 0.25);
+    width: 600px;
+    min-height: 150px;
+    align-items: center;
+    display: flex;
+}
+
+.image-container{
+    border-right: 1px solid black;
+    flex: 1;
+    padding: 10px 30px;
+}
+
+.image-container img{
+    width: 100%;
+    height: 100%;
+    
+    object-fit: contain;
+}
+
+.product-content{
+    flex: 5;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* product content style */
+
+.product-content h2{
+    font-size: 16px;
+    font-weight: 500;
+    
+}
+.product-content p{
+    font-size: 12px;
+    font-weight: 400;
+    opacity: 0.8;
+}
+.product-content button{
+    font-size: 20px;
+    background-color: var(--primary);
+    border: none;
+    color: white;
+    padding: 5px 20px;
+    margin-top: 10px;
+    align-self: end;
+}
+
+
+
+
+
+/* ------------------------ */
+/* Input Styling */
+.input-container {
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    margin: 10px auto;
+    gap: 10px;
+    align-items: center;
+}
+.input-container input {
+    width: 100%;
+    padding-left: 40px;
+    height: 35px;
+    border: 2px solid var(--primary);
+    color: var(--primary);
+}
+.input-container input::placeholder {
+    color: var(--primary);
+}
+.input-container button{
+    border: none;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    
+    width: 60px;
+}
+.fa-solid{
+   scale: 1.2;
+}
+
+/* media query */
+
+@media (max-width: 425px) {
+  .product-card {
+    flex-direction: column;
+  }
+  .product-content button {
+    align-self: stretch;
+  }
+}
+
+
+@media (max-width: 630px) {
+  .product-card {
+    width: 90%;
+  }
+  .input-container {
+    
+    width: 80%;
+  }
+  .product-container{
+    align-items: center;
+    
+  }
+}
