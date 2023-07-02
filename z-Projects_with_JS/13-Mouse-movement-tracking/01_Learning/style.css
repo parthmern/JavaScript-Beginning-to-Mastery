@@ -1,0 +1,28 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    background-color: red;
+    width: 100%;
+}
+
+.left{
+    background-color: blue;
+    width: 300px;
+    left: 0;
+    height: 100vh;
+}
+
+.right{
+    background-color: blue;
+    width: 300px;
+    right: 0;
+    height: 100vh;
+}
