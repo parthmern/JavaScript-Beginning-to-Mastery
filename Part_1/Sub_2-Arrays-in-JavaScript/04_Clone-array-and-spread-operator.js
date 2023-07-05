@@ -2,7 +2,7 @@
 
 let array1 = ["item1","item2"];
 
-let array2 = array1.slice(0); // method-1 (SPLICE)
+let array2 = array1.slice(0); // method-1 (SLICE)
 
 let array3 = [].concat(array1); // method-2 (CONCATE)
 
