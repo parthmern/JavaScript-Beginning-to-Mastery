@@ -1,5 +1,8 @@
 // typeof operator --give datatype of any variable
 
+// Type casting -- change dataType of any variables 
+// ans = String(x) or Number(y);
+
 let a= 1;
 console.log(typeof(a)); // number
 
