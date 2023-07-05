@@ -8,6 +8,8 @@ const person =  {
 };
 
 //for-in loop
+//we cannot use DOT-notation in object while in for-in loop
+//so use BRACKET-notation without "" ex. object[key]
 for(let key in person){
 
     console.log(key); // name - age - hooby
@@ -27,6 +29,9 @@ for(let key in person){
 console.log((Object.keys(person))); //['name', 'age', 'hobby']  <-- array
 
 //FOR-OF-loop
+//FOR-OF loop cannot work on object so convert object to ARRAY
+// Object.keys(array) 
+// Object.values(array)
 
 for(let key of Object.keys(person)){
     console.log(key); // name - age - hobby
