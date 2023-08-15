@@ -1,0 +1,1 @@
+export const age = 33; // exporting
