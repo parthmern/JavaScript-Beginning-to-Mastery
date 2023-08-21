@@ -23,7 +23,9 @@ for ( let i =0 ; i<number.length ; i++){
 
 //-------------------------------------------------------
 //-------------------------------------------------------
-// array.forEach(callback);
+// array.forEach(callback); 
+
+//IMP=== here callback is outer function that it must be function Declarataion because .forEach is not working with expression/arrow function
 
 
 number.forEach(myFunc); 
