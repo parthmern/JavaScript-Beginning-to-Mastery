@@ -29,7 +29,7 @@ myFunc1(1,2,3,4); //OP- x is 1, y is 2, z is [3,4] (z is array)
 
 function sum(...num){
 
-    console.log(num);
+    console.log(num);  // [ 1, 2, 3, 4, 5, 6 ] and typeof(n) = Objcet but(like array like object )
 
     var total = 0;
 
