@@ -31,3 +31,30 @@ console.log(user1); // {firstName: 'harshit', lastName: 'vashsith', email: 'hars
 console.log(user1.about()); //harshit is 9 years old.
 
 console.log(user3.sing()); // toon na na na la la 
+
+
+//==========================================================================
+//==========================================================================
+// Object.create()
+
+// Create a person object that will serve as the prototype
+const person = {
+  firstName: "John",
+  lastName: "Doe",
+  greet: function() {
+    console.log(`Hello, my name is ${this.firstName} ${this.lastName}`);
+  }
+};
+
+// Create a new object person1 that inherits from the person object
+const person1 = Object.create(person);
+
+console.log(person1.firstName); // "John" (inherited from the prototype)
+console.log(person1.greet()); // "Hello, my name is John Doe" (inherited method)
+
+// Create another person object that inherits from person
+const person2 = Object.create(person);
+
+person2.firstName = "Alice"; // Override the firstName property
+console.log(person2.firstName); // "Alice" (overrides the inherited property)
+console.log(person2.greet()); // "Hello, my name is Alice Doe" (inherited method)
