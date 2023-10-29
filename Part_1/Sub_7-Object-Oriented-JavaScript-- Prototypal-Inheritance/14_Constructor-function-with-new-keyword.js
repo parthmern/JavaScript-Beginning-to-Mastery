@@ -34,3 +34,18 @@ for(let key in user1){
     }
 
 } // firstName -lastName-email-age-address-
+
+
+//===========================================================
+//===========================================================
+// new XXXXXX
+
+function Person(name, age) {
+  this.name = name;
+  this.age = age;
+}
+
+const person1 = new Person("John", 30);
+const person2 = new Person("Alice", 25);
+
+// When you use new, a new object is created, and this inside the constructor function refers to the new object.
