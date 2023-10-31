@@ -1,6 +1,8 @@
 // Create elements
 // append -- add in the LAST
+// appendChild -- between
 // prepend -- add in the START
+
 // remove -- remove any element
 //------------------------------------------
 
