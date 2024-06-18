@@ -2,6 +2,7 @@
 
 // you know that sab element document object k andar pade hai toh ==> document.getElementById("id")
 
+// HERE VARIABLE is like referance variable 
 const mainHeading = document.getElementById("main-heading");
 
 console.log(mainHeading);  // <h2 id="main-heading">.........</h2>
